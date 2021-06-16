@@ -1,9 +1,13 @@
 const Main = () => {
   return (
     <div className="herosection">
-      <p>
-        Hello, I'm <span>OMAR KHOUJA</span> Junior Web Developer
-      </p>
+      <ul>
+        <li className="herotext">Hello, I'm</li>
+        <li>
+          <h1>OMAR KHOUJA</h1>
+        </li>
+        <li className="herotext">Junior Web Developer</li>
+      </ul>
     </div>
   );
 };

@@ -2,30 +2,57 @@
 //   @include flex-center;
 // }
 
-.header li {
-  display: inline;
-}
-.header ul {
-  width: 10%;
-  display: flex;
-  justify-content: space-evenly;
-}
+// .header li {
+//   display: inline;
+// }
+// .header ul {
+//   width: 10%;
+//   display: flex;
+//   justify-content: space-evenly;
+// }
 .logoNav {
   // border: 2px blue dashed;
   font-family: "Monoton", cursive;
   font-size: 3rem;
   margin-top: auto;
 }
+.navBar {
+  // display: inline;
+
+  // display: flex;
+  // justify-content: space-around;
+  // flex-direction: row;
+  width: 90%;
+  float: right;
+  // border: 2px green dotted;
+  ul {
+    display: inline;
+  }
+  li {
+    display: inline;
+    text-align: center;
+
+    // display: flex;
+    // justify-content: flex-end;
+    float: right;
+    // flex-direction: column-reverse;
+    // border: 2px rgb(67, 134, 196) dotted;
+    width: 8rem;
+    // height: 4rem;
+  }
+}
 
 .shape1 {
-  border: 2px $field-color1 solid;
+  // border: 2px $field-color1 solid;
   background-color: $field-color1;
   border-radius: 100%;
   width: 20rem;
   height: 20rem;
   // margin: auto;
-  margin-top: -15rem;
-  position: relative;
+  // margin-top: -15rem;
+  top: -15%;
+  left: -7%;
+  position: absolute;
   z-index: -1;
   // @include flex-center;
 }
@@ -52,7 +79,7 @@
   @include flex-center;
 }
 .shape3 {
-  border: 2px $field-color1 solid;
+  // border: 2px $field-color1 solid;
   background-color: $field-color1;
   border-radius: 100%;
   width: 20rem;
@@ -61,8 +88,8 @@
   // margin-top: -20rem;
   // @include flex-center;
   position: absolute;
-  left: 85%;
-  top: 70%;
+  left: 88%;
+  top: 76%;
   // bottom: 50%;
   z-index: -1;
 }
