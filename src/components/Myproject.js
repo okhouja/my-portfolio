@@ -1,4 +1,4 @@
 const Myproject = () => {
-  return <div className="mainContainer"></div>;
+  return <div></div>;
 };
 export default Myproject;
