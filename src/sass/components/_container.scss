@@ -4,6 +4,7 @@ body {
   border: 2px yellowgreen dashed;
   background-color: $field-color5;
   color: $field-color6;
+  overflow: hidden;
 }
 .header {
   // margin: 0 auto;
@@ -17,8 +18,16 @@ body {
 }
 
 .mainContainer {
-  border: 2px red dashed;
+  border: 2px darkmagenta dashed;
   width: 100%;
   // height: 29.6rem;
   height: 92vh;
+}
+
+.herosection {
+  border: 2px gainsboro dotted;
+  width: 45rem;
+  height: 9rem;
+  margin-top: -24rem;
+  display: flex;
 }
