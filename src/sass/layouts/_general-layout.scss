@@ -1,6 +1,6 @@
-// .header {
-//   @include flex-center;
-// }
+.header {
+  @include flex-center;
+}
 
 // .header li {
 //   display: inline;
@@ -14,28 +14,40 @@
   // border: 2px blue dashed;
   font-family: "Monoton", cursive;
   font-size: 3rem;
-  margin-top: auto;
+  margin-top: 4.5rem;
+  padding-left: 2rem;
+  color: $field-color2;
+  font-weight: 100;
+
+  // font-style: bold;
 }
 .navBar {
   // display: inline;
 
-  // display: flex;
+  display: flex;
+  justify-content: flex-end;
   // justify-content: space-around;
-  // flex-direction: row;
+  // flex-direction: row-reverse;
   width: 90%;
-  float: right;
+  // float: right;
   // border: 2px green dotted;
   ul {
-    display: inline;
+    // display: inline;
+    @include flex-center;
+    list-style-type: none;
+    // transform: rotate(180deg);
   }
   li {
-    display: inline;
-    text-align: center;
+    // display: inline;
+    // text-align: center;
+    // color: $field-color2;
+    // transform: rotate(180deg);
 
     // display: flex;
-    // justify-content: flex-end;
+    // flex: 0 0 auto;
+    justify-content: center;
     float: right;
-    // flex-direction: column-reverse;
+    flex-direction: row-reverse;
     // border: 2px rgb(67, 134, 196) dotted;
     width: 8rem;
     // height: 4rem;

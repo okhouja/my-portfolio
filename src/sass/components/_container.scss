@@ -19,7 +19,7 @@ body {
 }
 
 .mainContainer {
-  border: 2px $field-color5 dashed;
+  // border: 2px $field-color5 dashed;
   // width: 100%;
   // height: 29.6rem;
   height: 92vh;
@@ -31,12 +31,14 @@ body {
   height: 25rem;
   // margin: auto;
   // position: absolute;
-  margin-top: -40rem;
+  // margin-top: -40rem;
   @include flex-center;
+  z-index: -1;
 
   .herotext {
     color: $field-color1;
     font-size: 2rem;
+    font-weight: 600;
   }
   ul {
     list-style: none;
@@ -46,6 +48,9 @@ body {
     // word-spacing: 0.2rem;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
+    color: $field-color6;
+
+    font-weight: 900;
   }
 }
