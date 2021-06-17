@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Design from "./components/Design";
-import Main from "./components/Main";
+import Home from "./components/Home";
 import Header from "./components/Header";
 import Myproject from "./components/Myproject";
 import Aboutme from "./components/Aboutme";
@@ -11,11 +11,14 @@ function App() {
   return (
     <Router>
       <Header />
-      <Design />
-      <Main />
 
-      <Myproject />
-      <Aboutme />
+      <Design />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Myproject />
+        <Aboutme />
+      </Switch>
+      <Home />
       <Footer />
     </Router>
   );

@@ -1,4 +1,4 @@
-const Main = () => {
+const Home = () => {
   return (
     <div className="herosection__container">
       <div className="herosection">
@@ -13,4 +13,4 @@ const Main = () => {
     </div>
   );
 };
-export default Main;
+export default Home;
