@@ -11,14 +11,11 @@ function App() {
   return (
     <Router>
       <Header />
-
       <Design />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Myproject />
-        <Aboutme />
+        <Route path="/Aboutme" exact component={Aboutme} />
       </Switch>
-      <Home />
       <Footer />
     </Router>
   );

@@ -36,7 +36,7 @@
   }
   li {
     // display: inline;
-    // text-align: center;
+    text-align: center;
     // color: $field-color2;
     // transform: rotate(180deg);
 
@@ -48,6 +48,16 @@
     // border: 2px rgb(67, 134, 196) dotted;
     width: 8rem;
     // height: 4rem;
+  }
+  ul li:hover {
+    background-color: $field-color1;
+  }
+  a {
+    color: $field-color6;
+  }
+  ul li a:hover {
+    background-color: $field-color2;
+    color: $field-color7;
   }
 }
 
