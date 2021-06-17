@@ -22,14 +22,11 @@
   // font-style: bold;
 }
 .navBar {
-  // display: inline;
-
   display: flex;
   justify-content: flex-end;
-  // justify-content: space-around;
-  // flex-direction: row-reverse;
+
   width: 90%;
-  // float: right;
+
   // border: 2px green dotted;
   ul {
     // display: inline;
@@ -104,4 +101,8 @@
   top: 76%;
   // bottom: 50%;
   z-index: -1;
+}
+.footer {
+  @include flex-center;
+  color: #fff;
 }
