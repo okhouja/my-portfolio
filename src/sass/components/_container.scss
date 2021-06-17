@@ -24,11 +24,15 @@ body {
   // height: 29.6rem;
   height: 92vh;
 }
-
-.herosection {
-  // border: 2px gainsboro dotted;
+.herosection__container {
+  border: 2px rgb(172, 77, 77) dotted;
   width: 50rem;
-  height: 25rem;
+  height: 40rem;
+}
+.herosection {
+  border: 2px gainsboro dotted;
+  width: 50rem;
+  height: 28rem;
   // margin: auto;
   // position: absolute;
   // margin-top: -40rem;

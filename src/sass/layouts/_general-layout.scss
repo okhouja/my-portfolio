@@ -102,6 +102,30 @@
   // bottom: 50%;
   z-index: -1;
 }
+
+.aboutme__Container {
+  border: 2px greenyellow dotted;
+  // @include flex-center;
+  background-color: $field-color4;
+  width: 100%;
+  height: 60%;
+}
+
+.aboutme__title {
+  border: 2px rgb(47, 144, 255) dotted;
+  @include flex-center;
+  flex-direction: column;
+
+  font-size: 2rem;
+}
+.aboutme__Header {
+  border: 2px rgb(161, 47, 255) dashed;
+  font-size: 1.5rem;
+}
+.aboutme__Main {
+  border: 2px rgb(255, 141, 47) dotted;
+  font-size: 1.5rem;
+}
 .footer {
   @include flex-center;
   color: #fff;

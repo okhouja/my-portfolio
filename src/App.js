@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Design from "./components/Design";
 import Main from "./components/Main";
 import Header from "./components/Header";
@@ -8,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
       <Header />
       <Design />
       <Main />
@@ -16,7 +17,7 @@ function App() {
       <Myproject />
       <Aboutme />
       <Footer />
-    </React.Fragment>
+    </Router>
   );
 }
 
