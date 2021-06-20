@@ -24,11 +24,12 @@
 .navBar {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 
   width: 90%;
   list-style-type: none;
   height: 4rem;
-  border: 2px green dotted;
+  // border: 2px green dotted;
   // nav {
   //   // display: inline;
   //   // display: flex;
@@ -48,7 +49,7 @@
     justify-content: center;
     float: right;
     flex-direction: row-reverse;
-    border: 2px rgb(67, 134, 196) dotted;
+    // border: 2px rgb(67, 134, 196) dotted;
     width: 8rem;
     // height: 4rem;
   }
