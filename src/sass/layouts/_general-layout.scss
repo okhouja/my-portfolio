@@ -26,14 +26,17 @@
   justify-content: flex-end;
 
   width: 90%;
+  list-style-type: none;
+  height: 4rem;
+  border: 2px green dotted;
+  // nav {
+  //   // display: inline;
+  //   // display: flex;
 
-  // border: 2px green dotted;
-  ul {
-    // display: inline;
-    @include flex-center;
-    list-style-type: none;
-    // transform: rotate(180deg);
-  }
+  //   // @include flex-center;
+  //   // list-style-type: none;
+  //   // transform: rotate(180deg);
+  // }
   li {
     // display: inline;
     text-align: center;
@@ -45,72 +48,20 @@
     justify-content: center;
     float: right;
     flex-direction: row-reverse;
-    // border: 2px rgb(67, 134, 196) dotted;
+    border: 2px rgb(67, 134, 196) dotted;
     width: 8rem;
     // height: 4rem;
   }
-  ul li:hover {
+  nav li:hover {
     background-color: $field-color1;
   }
   a {
     color: $field-color6;
   }
-  ul li a:hover {
+  nav li a:hover {
     background-color: $field-color2;
     color: $field-color7;
   }
-}
-
-.shape1 {
-  // border: 2px $field-color1 solid;
-  background-color: $field-color1;
-  border-radius: 100%;
-  width: 20rem;
-  height: 20rem;
-  // margin: auto;
-  // margin-top: -15rem;
-  top: -15%;
-  left: -7%;
-  position: absolute;
-  z-index: -1;
-  // @include flex-center;
-}
-.shape2 {
-  // border: 2px $field-color1 solid;
-  // background-color: $field-color4;
-  // border-radius: 1%;
-  width: 0;
-  height: 0;
-  border-left: 30rem solid transparent;
-  border-right: 30rem solid transparent;
-  border-bottom: 70rem $field-color4 solid;
-  margin: auto;
-  transform: rotate(180deg);
-  margin-top: -40rem;
-  // margin-right: 10rem;
-  opacity: 0.3;
-  z-index: -1;
-  // position: absolute;
-  // left: center;
-  // top: auto;
-  // bottom: 10%;
-
-  @include flex-center;
-}
-.shape3 {
-  // border: 2px $field-color1 solid;
-  background-color: $field-color1;
-  border-radius: 100%;
-  width: 20rem;
-  height: 20rem;
-  // margin-left: 80rem;
-  // margin-top: -20rem;
-  // @include flex-center;
-  position: absolute;
-  left: 88%;
-  top: 76%;
-  // bottom: 50%;
-  z-index: -1;
 }
 
 .aboutme__Container {

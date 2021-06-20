@@ -6,6 +6,20 @@ const Design = () => {
         <div className="shape2"></div>
         <div className="shape3"></div>
       </main>
+      {/* <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> */}
     </div>
   );
 };

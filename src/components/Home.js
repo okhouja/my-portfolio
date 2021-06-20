@@ -1,16 +1,20 @@
+import React from "react";
+
 const Home = () => {
   return (
-    <div className="herosection__container">
-      <div className="herosection">
-        <ul>
-          <li className="herotext">Hello, I'm</li>
-          <li>
-            <h1>OMAR KHOUJA</h1>
-          </li>
-          <li className="herotext">Junior Web Developer</li>
-        </ul>
+    <React.Fragment>
+      <div className="herosection__container">
+        <div className="herosection">
+          <ul>
+            <li className="herotext">Hello, I'm</li>
+            <li>
+              <h1>OMAR KHOUJA</h1>
+            </li>
+            <li className="herotext">Junior Web Developer</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 export default Home;

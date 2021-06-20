@@ -6,15 +6,19 @@ import Header from "./components/Header";
 import Myproject from "./components/Myproject";
 import Aboutme from "./components/Aboutme";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <Router>
       <Header />
       <Design />
+
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Aboutme" exact component={Aboutme} />
+        <Route path="/aboutme" exact component={Aboutme} />
+        <Route path="/myproject" exact component={Myproject} />
+        <Route path="/contact" exact component={Contact} />
       </Switch>
       <Footer />
     </Router>

@@ -5,21 +5,19 @@ const Header = () => {
     <div className="header">
       <div className="logoNav">OK</div>
       <div className="navBar">
-        <ul>
-          <Link to="/home">
-            <li>HOMEPAGE</li>
-          </Link>
-          <Link to="/myproject">
-            <li>MY PROJECT</li>
-          </Link>
-          <Link to="/aboutme">
-            <li>ABOUT ME</li>
-          </Link>
+        <Link to="/">
+          <li>HOMEPAGE</li>
+        </Link>
+        <Link to="/myproject">
+          <li>MY PROJECT</li>
+        </Link>
+        <Link to="/aboutme">
+          <li>ABOUT ME</li>
+        </Link>
 
-          <Link to="/contact">
-            <li>CONTACT</li>
-          </Link>
-        </ul>
+        <Link to="/contact">
+          <li>CONTACT</li>
+        </Link>
       </div>
     </div>
   );
