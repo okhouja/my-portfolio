@@ -53,13 +53,13 @@
     width: 8rem;
     // height: 4rem;
   }
-  nav li:hover {
+  li:hover {
     background-color: $field-color1;
   }
   a {
     color: $field-color6;
   }
-  nav li a:hover {
+  li a:hover {
     background-color: $field-color2;
     color: $field-color7;
   }
@@ -72,7 +72,7 @@
   // margin-top: 10%;
 }
 .projects__container {
-  border: 2px green dotted;
+  // border: 2px green dotted;
   margin: 10% auto;
   display: flex;
   // flex-direction: row;
@@ -94,7 +94,7 @@
 }
 
 .projectsGallery {
-  border: 2px red dotted;
+  // border: 2px red dotted;
 
   display: flex;
   // flex: 0 0 33.333333%;
@@ -111,7 +111,7 @@
   // }
 }
 .project_Image {
-  border: 2px gold dotted;
+  border: 1px $field-color1 solid;
   // flex: 0 0 33.333333%;
 
   width: 100%;
