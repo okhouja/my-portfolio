@@ -19,15 +19,17 @@ const Contact = () => {
                   required
                 />
                 <input type="text" class="input" placeholder="Phone" />
-                <textarea
+                <input
                   type="text"
                   class="input"
                   placeholder="Your Message :"
-                ></textarea>
+                  id="message_input"
+                ></input>
                 <input
                   type="submit"
                   class="button button__submit"
                   value="Submit"
+                  id="button_hover"
                 />
               </fieldset>
             </div>

@@ -1,22 +1,26 @@
 .contact__container {
-  border: 2px red dotted;
+  //   border: 2px red dotted;
   @include flex-center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 11%;
+  margin-bottom: 7%;
 }
 .contact__title {
-  border: 2px greenyellow dashed;
+  //   border: 2px greenyellow dashed;
+  text-decoration: underline;
 }
 
 .content__form {
-  border: 2px darkturquoise dashed;
+  //   border: 2px darkturquoise dashed;
 
   display: flex;
   flex-direction: column;
   height: 30rem;
 }
 .input__fields {
-  border: 2px snow dotted;
+  border: none;
+  //   border: 2px snow dotted;
+
   @include flex-center;
   display: flex;
   flex-direction: column;
@@ -26,14 +30,36 @@
   height: 40vh;
 }
 .input {
+  border: none;
   background-color: $field-color3;
   width: 50%;
   height: 5vh;
   margin-top: 1rem;
   text-align: center;
-  color: $field-color6;
+  color: $field-color7;
   font-size: 1.2rem; //   position: absolute;
   //   line-height: 26px;
   //   display: flex;
   //   justify-content: space-between;
+}
+::placeholder {
+  color: $field-color4;
+  text-align: center;
+}
+
+#message_input {
+  height: 15rem;
+}
+.button {
+  border: none;
+  margin-top: 2rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.6rem;
+  border-radius: 2%;
+  background-color: $field-color6;
+}
+#button_hover:hover {
+  background-color: $field-color4;
+  color: $field-color7;
 }
