@@ -2,7 +2,38 @@
   border: 2px red dotted;
   @include flex-center;
   flex-direction: column;
+  margin-top: 10%;
 }
 .contact__title {
   border: 2px greenyellow dashed;
+}
+
+.content__form {
+  border: 2px darkturquoise dashed;
+
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+}
+.input__fields {
+  border: 2px snow dotted;
+  @include flex-center;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: space-around;
+
+  width: 50vw;
+  height: 40vh;
+}
+.input {
+  background-color: $field-color3;
+  width: 50%;
+  height: 5vh;
+  margin-top: 1rem;
+  text-align: center;
+  color: $field-color6;
+  font-size: 1.2rem; //   position: absolute;
+  //   line-height: 26px;
+  //   display: flex;
+  //   justify-content: space-between;
 }
