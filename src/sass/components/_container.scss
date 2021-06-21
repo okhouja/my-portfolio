@@ -3,11 +3,11 @@ body {
   height: 100vh;
   // border: 2px yellowgreen dashed;
   background: linear-gradient(345deg, #3c5e73, #456b8c, #132f40);
-  background-size: 120% 110%;
+  background-size: 420% 410%;
   animation: gradient 25s ease infinite;
   // background-color: $field-color5;
   color: $field-color7;
-  overflow: hidden;
+  // overflow: hidden;
 }
 @keyframes gradient {
   0% {

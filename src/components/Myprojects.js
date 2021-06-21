@@ -9,9 +9,9 @@ const Myprojects = ({ projects }) => {
         <h2 className="heroProSection">My ProJects</h2>
         <div className="heroProjtext">
           Work projects that I did while learning at Digital Career Institute
-          School
+          School.
         </div>
-        <main>
+        <main className="projects__container">
           <div className="projectsGallery">
             {Data.map((el) => (
               <a href={el.link}>
