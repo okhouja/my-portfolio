@@ -14,7 +14,7 @@ const Myprojects = ({ projects }) => {
         <main className="projects__container">
           <div className="projectsGallery">
             {Data.map((el) => (
-              <a href={el.link}>
+              <a href={el.link} className="project_link">
                 <img
                   className="project_Image"
                   src={require(`../img/${el.img}`).default}
