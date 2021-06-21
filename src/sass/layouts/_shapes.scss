@@ -46,9 +46,9 @@
   // margin-top: -20rem;
   // @include flex-center;
 
-  position: absolute;
-  left: 92%;
-  top: 84%;
+  position: fixed;
+  left: 90%;
+  top: 82%;
   // bottom: 50%;
   z-index: -1;
 }
