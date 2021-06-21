@@ -65,6 +65,16 @@
   }
 }
 
+.projectsGallery {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 5rem;
+}
+.project_Image {
+  width: 5rem;
+}
+
 .aboutme__Container {
   border: 2px greenyellow dotted;
   // @include flex-center;

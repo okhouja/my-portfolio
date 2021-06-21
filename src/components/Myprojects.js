@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Data from "../data.json";
 
-const Myprojects = (projects) => {
+const Myprojects = ({ projects }) => {
+  // const [project, setproject] = useState([]);
   return (
     <React.Fragment>
       <div className="heroproject__container">
@@ -10,7 +12,18 @@ const Myprojects = (projects) => {
           School
         </div>
         <main>
-          {/* <div className="projectsGallery">{projects.map((el) => el)}</div> */}
+          <div className="projectsGallery">
+            {Data.map((el) => (
+              <a href={el.link}>
+                <img
+                  className="project_Image"
+                  src={require(`../img/${el.img}`).default}
+                  key={el.id}
+                />
+                <p>{el.info}</p>
+              </a>
+            ))}
+          </div>
         </main>
       </div>
       ;
