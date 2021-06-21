@@ -15,11 +15,59 @@
   font-family: "Monoton", cursive;
   font-size: 3rem;
   margin-top: 4.5rem;
-  padding-left: 2rem;
+  margin-left: -2rem;
   color: $field-color2;
   font-weight: 100;
 
+  // text-shadow: 1px 1px 8px $field-color5;
+
   // font-style: bold;
+  // position: absolute;
+  // top: 50rem;
+  // left: 50%;
+
+  // background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+  // background-position: 0;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // animation: shine 3s infinite linear;
+  // animation-fill-mode: forwards;
+  // -webkit-text-size-adjust: none;
+  // font-weight: 600;
+  // // font-size: 16px;
+  // text-decoration: none;
+  // white-space: nowrap;
+
+  // @keyframes shine {
+  //   0% {
+  //     background-position: 0;
+  //   }
+  //   60% {
+  //     background-position: 180px;
+  //   }
+  //   100% {
+  //     background-position: 180px;
+  //   }
+  // }
+
+  background: linear-gradient(90deg, #456b8c, #7ea1bf, #132f40);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: repeat;
+  background-size: 80%;
+  animation: shine 3s linear infinite;
+  // position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
 }
 .navBar {
   display: flex;
@@ -54,8 +102,8 @@
     // height: 4rem;
   }
   li:hover {
-    background-color: $field-color4;
-    color: $field-color7;
+    background-color: $field-color6;
+    color: $field-color4;
   }
   a {
     color: $field-color6;
