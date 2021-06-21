@@ -1,0 +1,8 @@
+.contact__container {
+  border: 2px red dotted;
+  @include flex-center;
+  flex-direction: column;
+}
+.contact__title {
+  border: 2px greenyellow dashed;
+}
