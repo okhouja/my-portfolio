@@ -6,8 +6,9 @@
   margin-bottom: 7%;
 }
 .contact__title {
+  color: $field-color7;
   //   border: 2px greenyellow dashed;
-  text-decoration: underline;
+  //   text-decoration: underline;
 }
 
 .content__form {
@@ -53,7 +54,7 @@
 .button {
   border: none;
   margin-top: 2rem;
-  width: 15rem;
+  width: 40%;
   height: 3rem;
   font-size: 1.6rem;
   border-radius: 2%;

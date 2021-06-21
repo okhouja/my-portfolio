@@ -5,7 +5,7 @@ const Contact = () => {
       <div>
         <article class="contact__container" id="contact">
           <div class="contact__title">
-            <h2>Contact Me :)</h2>
+            <h2>Contact Me :</h2>
           </div>
 
           <form action="#">
