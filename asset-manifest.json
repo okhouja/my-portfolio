@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.fec20b0c.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.b8522c8d.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.b8522c8d.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.76b72162.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.76b72162.js.map",
+    "static/js/2.d42a3340.chunk.js": "/my-portfolio/static/js/2.d42a3340.chunk.js",
+    "static/js/2.d42a3340.chunk.js.map": "/my-portfolio/static/js/2.d42a3340.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.fec20b0c.chunk.css.map": "/my-portfolio/static/css/main.fec20b0c.chunk.css.map",
+    "static/js/2.d42a3340.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d42a3340.chunk.js.LICENSE.txt",
+    "static/media/Country-Axios.png": "/my-portfolio/static/media/Country-Axios.7401170d.png",
+    "static/media/DigitalClock_StopWatch.png": "/my-portfolio/static/media/DigitalClock_StopWatch.507cf150.png",
+    "static/media/Morse_Converter.png": "/my-portfolio/static/media/Morse_Converter.b317d948.png",
+    "static/media/Numbers_Exchange.png": "/my-portfolio/static/media/Numbers_Exchange.3cbf052e.png",
+    "static/media/Password_Generator.png": "/my-portfolio/static/media/Password_Generator.2773298b.png",
+    "static/media/Picture_Slider.png": "/my-portfolio/static/media/Picture_Slider.946e263f.png",
+    "static/media/React-instagram-clone.png": "/my-portfolio/static/media/React-instagram-clone.ead103d5.png",
+    "static/media/React_Todo_List.png": "/my-portfolio/static/media/React_Todo_List.8137a54f.png",
+    "static/media/Vanilla_todo_list.png": "/my-portfolio/static/media/Vanilla_todo_list.917cf26b.png",
+    "static/media/gallerywall.png": "/my-portfolio/static/media/gallerywall.dfa7a647.png",
+    "static/media/login_app.png": "/my-portfolio/static/media/login_app.502eeba7.png",
+    "static/media/mobile_app.png": "/my-portfolio/static/media/mobile_app.fa5cafe5.png",
+    "static/media/online-shop.png": "/my-portfolio/static/media/online-shop.7e2095cf.png",
+    "static/media/periodic_table.png": "/my-portfolio/static/media/periodic_table.44d523f1.png",
+    "static/media/scss_Math.png": "/my-portfolio/static/media/scss_Math.5140b310.png",
+    "static/media/youtube_clone.png": "/my-portfolio/static/media/youtube_clone.58edf0fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76b72162.js",
+    "static/js/2.d42a3340.chunk.js",
+    "static/css/main.fec20b0c.chunk.css",
+    "static/js/main.b8522c8d.chunk.js"
+  ]
+}
