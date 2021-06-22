@@ -8,7 +8,6 @@ import Aboutme from "./components/Aboutme";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Data from "./data.json";
-import post from "./components/Post";
 
 function App() {
   const [project, setProject] = useState([]);
