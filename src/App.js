@@ -16,6 +16,7 @@ function App() {
     <Router>
       <Header />
       <Design />
+      <Home />
 
       <Switch>
         <Route path="/" exact component={Home} />

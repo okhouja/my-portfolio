@@ -36,7 +36,6 @@ const Contact = () => {
           </form>
         </article>
       </div>
-      ;
     </React.Fragment>
   );
 };

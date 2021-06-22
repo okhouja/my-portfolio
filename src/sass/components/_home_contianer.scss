@@ -1,0 +1,36 @@
+// .herosection__container {
+//   //   border: 2px fuchsia dotted;
+//   height: 75vh;
+// }
+
+.herosection {
+  // border: 2px gainsboro dotted;
+  width: 50rem;
+  height: 28rem;
+  display: flex;
+  justify-items: center;
+  // position: absolute;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  @include flex-center;
+  z-index: -1;
+
+  .herotext {
+    color: $field-color1;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    @include flex-center;
+    // word-spacing: 0.2rem;
+  }
+  h1 {
+    font-size: 5.5rem;
+    color: $field-color6;
+    text-shadow: 6px 6px 6px $field-color4;
+    font-weight: 900;
+  }
+}
